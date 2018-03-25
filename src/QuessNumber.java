@@ -4,12 +4,13 @@ import java.util.Scanner;
 public class QuessNumber {
 
 	public static void main(String[] args) {
+		
 		Random rand = new Random();
 		Scanner scan = new Scanner(System.in);
 		int me;
 		int java = rand.nextInt(10);
 		int counter = 3;
-System.out.println(java);
+
 		do {
 
 			if (counter == 0) {
